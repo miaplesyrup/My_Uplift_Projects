@@ -1,0 +1,25 @@
+
+    1. User Persona
+        a. Physician - Physician who accepts patients and issues medical prescriptions. He/She is connected to the Pharmacy that supplies the medications. He/She sends the prescriptions and patient details to the pharmacy, and the pharmacy dispenses the medications to the patient/s.
+
+        b. Pharmacy - Any employee of the pharmacy who receives the prescription from the physician. He/She prepares the medicines and notifies the patient whenever it is ready for pickup through the indicated contact number.
+    
+    2. User Journey
+
+        a. Physician
+            1. Logs in to the App to access the Order form to the Pharmacy
+            2. Inputs the patient details
+            3. Uploads the prescription
+            4. Sends the request to the pharmacy 
+
+        b. Pharmacy
+            1. Logs in to access the list of orders from different physicians
+            2. Gets the patient details and downloads the prescription
+            3. Updates the status of the request
+            4. Sends notification to the patients via the indicated contact number found in the request
+
+
+
+
+
+   
