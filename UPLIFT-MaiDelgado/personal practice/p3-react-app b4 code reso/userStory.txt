@@ -1,0 +1,29 @@
+App Name: gastronomix
+
+USER PERSONA: Anyone who is into cooking and wants to look for ideas of tested dishes. The user will use the app to see sets of dishes with corresponding photos, list of ingredients, and detaied instructions.
+
+USER STORY: As a user, I want to be able to see a number of dishes with clear ingredients and instructions that I can follow. 
+
+Acceptance criteria:
+    1. choices of dishes
+    2. photos of the dishes
+    3. list of ingredients per dish
+    4. detailed instructions per dish
+
+SUMMARY of APP idea
+    Gastronomix is an app where the user can access a number of tested dishes with corresponding photos, ingredients and detailed instructions per dish.
+
+Planning Checklist:
+
+1. pick and idea and choose an app name- DONE
+2. write 2-3 sentence summary of the app idea - DONE
+3. create wireframes - link: https://app.moqups.com/YnrF0OxfGvSEtAcnFAjV7QIn9kFx0xZe/edit/page/a3afcac31
+4. List out features for MVP
+    -the admin would be able to input a json file and use it to display the items. 
+    -the components make the app easy to edit and manage
+5. Create user stories and acceptance criteria on Trello - https://trello.com/b/02OeWY6D/uplift-proj-3-react
+6. Get approval of your App idea, MVP scope and user stories with instructor - DONE
+
+
+Deployed app: gastronomix.netlify.app
+

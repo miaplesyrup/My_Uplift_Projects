@@ -1,0 +1,38 @@
+.itineraryCard {
+	background-color: #fff;
+}
+
+.itineraryCard--head {
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	padding-top: 52%;
+}
+
+.itineraryCard--body,
+.itineraryCard--footer {
+	padding: 15px;
+}
+
+.itineraryCard--tour_name {
+	display: -webkit-box;
+	line-height: 18px;
+	overflow: hidden;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+}
+
+.itineraryCard--footer {
+	border-top: 1px solid #ddd;
+}
+
+.flexbox-inline-center {
+	align-items: center;
+	display: flex;
+	margin-bottom: 15px;
+	gap: 8px;
+}
+
+.flexbox-inline-center:last-child {
+	margin-bottom: 0;
+}

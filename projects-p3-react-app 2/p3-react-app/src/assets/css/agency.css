@@ -1,0 +1,102 @@
+.userPage--header {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 3px solid #fff;
+	position: relative;
+	height: 250px;
+}
+
+.userPage-absolute {
+	align-items: flex-start;
+	bottom: -25px;
+	display: flex;
+	gap: 15px;
+	left: 15px;
+	position: absolute;
+}
+
+.userPage--profile {
+	background: #ffffff;
+	background: linear-gradient(180deg, rgb(255 255 255 / 0%) 0%, rgb(0 0 0 / 65%) 100%);
+	bottom: 0;
+	display: block;
+	height: 100px;
+	position: absolute;
+	width: 100%;
+}
+
+.userPage--basic-info {
+	margin-top: 20px;
+	flex-grow: 1;
+}
+
+.userPage--avatar {
+	background-color: #fff;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 5px solid #fff;
+	border-radius: 100%;
+	box-shadow: 0 1px 4px -1px rgb(0 0 0 / 15%);
+	height: 130px;
+	width: 130px;
+}
+
+.userPage--userName {
+	margin-bottom: 10px;
+	text-shadow: 1px 1px 0 #0009;
+}
+
+.userPage--body-grid {
+	display: grid;
+	grid-template-columns: 160px 1fr;
+	margin-top: 15px;
+}
+
+.userPage--body {
+	z-index: 1;
+}
+
+.userPage--basic-info-right {
+	color: #fff;
+}
+
+.userPage--body-left {
+	margin-top: 50px;
+}
+
+.list-parent>.list-item>svg {
+	margin-right: 10px;
+}
+
+.userPage-navbar {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+
+.userPage-navbar--link {
+	color: #ccc;
+	display: inline-block;
+	text-transform: uppercase;
+	padding: 15px 20px;
+	border-bottom: 3px solid transparent;
+}
+
+.userPage-navbar--link:hover {
+	border-bottom: 3px solid #ccc;
+}
+
+.userPage-navbar--link.page-active {
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	background-color: #2cb3b0;
+	border-bottom: 3px solid transparent !important;
+	color: #fff;
+}
+
+.userPage-navbar--link.active {
+	color: #2cb3b0;
+	border-bottom: 3px solid #2cb3b0;
+}

@@ -1,0 +1,12 @@
+{
+    "type": "Album",
+    "title": "Harry's House",
+    "description": "by Harry Styles",
+    "details": {
+        "title": "Harry's House",
+        "artist": "Harry Styles",
+        "year": "2023",
+        "genres": [ "Pop Rock", "Pop-funk", "new wave", "synth-pop" ],
+        "awards": "Billboard Top 50 2021"
+    }
+}

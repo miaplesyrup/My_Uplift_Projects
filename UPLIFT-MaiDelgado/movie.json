@@ -1,0 +1,16 @@
+{
+    "type": "Movie",
+    "title": "The Little Mermaid",
+    "description": "2023 animation",
+    "details": {
+        "title": "The Little Mermaid",
+        "production": "Disney",
+        "genres": [ "Animation", "Fantasy" ],
+        "release": 2023,
+        "director": "Rob Marshall",
+        "casts": [ "Jodie Benson", "Samuel Wright" ]
+    }
+}
+
+
+

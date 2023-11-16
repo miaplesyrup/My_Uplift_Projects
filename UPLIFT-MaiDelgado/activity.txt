@@ -1,0 +1,11 @@
+1. To add albums and movies: I made json files and imported it through the GUI
+
+
+2.  find {"details.genres": "Pop Rock"}
+    sort {"details.year": -1}
+
+3. album with more than one awards: { $where: "this.details.Awards.length > 1" } 
+
+4. find movie based on casts {"details.casts": "Aki Asakura"}
+
+5. { $or: [ { "details.release": { $gt: 2010}}, { "details.release": { $lt: 2000}}]}

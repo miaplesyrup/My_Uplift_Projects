@@ -1,0 +1,12 @@
+{
+    "type": "Album",
+    "title": "Breathless",
+    "description": "by The Corrs",
+    "details": {
+        "title": "Breathless",
+        "artist": "The Corrs",
+        "year": "2001",
+        "genres": [ "Pop rock", "folk rock", "Celtic fusion" ],
+        "awards": "Best Pop Performance By a Duo/Group"
+    }
+}

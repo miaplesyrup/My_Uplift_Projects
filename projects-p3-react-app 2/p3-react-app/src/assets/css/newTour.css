@@ -1,0 +1,151 @@
+.newTour--wrapper {
+	margin: 0 auto;
+	max-width: 450px;
+}
+
+#formCounter {
+	align-items: center;
+	display: flex;
+	justify-content: space-evenly;
+	text-align: center;
+	margin: 30px 0 0 0;
+}
+
+.formCounter--link {
+	align-items: center;
+	background-color: #aaa;
+	border-radius: 100%;
+	color: #fff !important;
+	display: flex;
+	font-weight: bold;
+	font-size: 1.8rem;
+	justify-content: center;
+	height: 70px;
+	width: 70px;
+}
+
+.formCounter--link.active {
+	background-color: #2cb3b0;
+}
+
+.formCounter--link.current {
+	background-color: #fff;
+	border: 2px solid #2cb3b0;
+	color: #2cb3b0 !important;
+}
+
+#formWrapper {
+	margin: 30px 0 0 0;
+}
+
+#newTour input {
+	height: 42px;
+	font-size: 1.6rem;
+	text-transform: capitalize;
+}
+
+input::placeholder,
+textarea::placeholder {
+	color: #333;
+}
+
+#newTour button {
+	font-size: 16px;
+}
+
+#newTour input[name="target_place"] {
+	text-transform: capitalize !important;
+}
+
+.grid-icon-input {
+	align-items: center;
+	grid-gap: 10px;
+	display: grid;
+	grid-template-columns: 30px 1fr;
+	margin-bottom: 15px;
+}
+
+.grid-icon-input input {
+	text-transform: uppercase !important;
+	font-size: 1rem !important;
+	height: 27px !important;
+}
+
+.page-title {
+	text-transform: capitalize;
+}
+
+.timeline--title {
+	flex-grow: 1;
+	text-transform: uppercase;
+}
+
+.newTour-preview {
+	margin-bottom: 20px;
+}
+
+.newTour-timeline--about-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex-grow: 1;
+	padding: 15px;
+}
+
+.newTour-timeline--details-wrapper {
+	border-left: 1px solid #ccc;
+	max-width: 300px;
+	padding: 15px;
+}
+
+.newTour--details-list,
+.newTour-timeline--about-wrapper {
+	min-height: 180px;
+}
+
+.newTour--details-list {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.dialog-box {
+	margin-top: 20px;
+}
+
+.newTour-timeline-maker {
+	display: grid;
+	grid-template-columns: 1fr minmax(350px, auto);
+	grid-gap: 20px;
+}
+
+.timelineList--item {
+	margin-bottom: 15px;
+	position: relative;
+}
+
+.timelineList--inner {
+	padding-left: 10px;
+	margin-left: 25px;
+	border-left: 3px solid #2cb3b0;
+}
+
+.timeline-dot {
+	width: 20px;
+	position: absolute;
+	top: 17px;
+	left: 16px;
+}
+
+.timeline--date-time {
+	margin-bottom: 15px;
+}
+
+#timelineForm input {
+	height: 34px;
+	font-size: 14px;
+}
+
+.timelineForm-submit-btn {
+	max-width: 100px;
+}

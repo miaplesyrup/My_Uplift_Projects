@@ -1,0 +1,19 @@
+.dashboard--tour-list {
+	margin-top: 30px;
+}
+
+.tour-list--item {
+	display: block;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+.tour-list--item-grid {
+	display: grid;
+	grid-template-columns: 1fr repeat(3, minmax(100px, 150px));
+	grid-gap: 10px;
+}
+
+.panel--header {
+	border-bottom: 1px solid #ccc;
+}

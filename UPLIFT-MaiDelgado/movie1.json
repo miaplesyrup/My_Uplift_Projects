@@ -1,0 +1,13 @@
+{
+    "type": "Movie",
+    "title": "Iron Man",
+    "description": "2008 action",
+    "details": {
+        "title": "Iron Man",
+        "production": "Marvel Studios",
+        "genres": [ "Action", "Sci-Fi" ],
+        "release": 2008,
+        "director": "Jon Favreau",
+        "casts": [ "Robert Downey Jr.", "Gwyneth Paltrow" ]
+    }
+}

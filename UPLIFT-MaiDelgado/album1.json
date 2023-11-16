@@ -1,0 +1,12 @@
+{
+    "type": "Album",
+    "title": "30",
+    "description": "by Adele",
+    "details": {
+        "title": "30",
+        "artist": "Adele",
+        "year": "2021",
+        "genres": [ "Soul", "Jazz", "Pop" ],
+        "awards": "Billboard Top 50 2021"
+    }
+}

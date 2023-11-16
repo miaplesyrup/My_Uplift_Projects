@@ -1,0 +1,184 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+}
+
+body{
+  background-color: cadetblue;
+}
+
+.canvass {
+  box-sizing: content-box;
+  width: 45em;
+  height: 100%;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  margin-top: 1em;
+  margin-bottom: 10em;
+}
+
+.gameContainer {
+  position: relative;
+  width: 100%;
+  display: grid;
+  gap: 0.1em;
+}
+
+.statsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  margin-bottom: 1.2em;
+  padding-top: 3em;
+  padding-bottom: 2em;
+  padding-left: 1em;
+  color: antiquewhite;
+  gap: 10em;
+}
+
+.statsContainer span{
+  font-weight: 600;
+}
+
+.card-container {
+  position: relative;
+  width: 9.25em;
+  height: 9.25em;
+  cursor: pointer;
+}
+
+.card-before,
+.card-after {
+  position: absolute;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.7s ease-out;
+  backface-visibility: hidden;
+}
+
+.card-before {
+  background-image: url('bahayKubo.png');
+  background-position: center;
+  background-size: cover; 
+  font-size: 2.8em;
+  font-weight: 600;
+}
+
+.card-after {
+  background-color:white;
+  transform: rotateY(180deg);
+  width: 11em;
+  max-height: fit-content;
+}
+.card-container.flipped .card-before {
+  transform: rotateY(180deg);
+}
+.card-container.flipped .card-after{
+  transform: rotateY(0deg);
+}
+.controls-container {
+  position:absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 150%;
+  background-color:cadetblue;
+  top: -10em;
+
+}
+.image {
+  height: 9em;
+  width: 10em;
+}
+button {
+  border: none;
+  border-radius: 0.3em;
+  padding: 1em 1.5em;
+  cursor: pointer;
+  width: 10em;
+}
+#startGame {
+  font-weight: bolder;
+  background-color: red;
+  color: aliceblue;
+}
+#stop {
+  font-size: 1.1em;
+  font-weight: bolder;
+  display: block;
+  margin: 1.1em auto 0 auto;
+  background-color: red;
+  color: antiquewhite;
+}
+.controls-container button {
+  font-size: 1.3em;
+  box-shadow: 0 0.6em 2em rgba(86, 66, 0, 0.2);
+}
+.hide {
+  display: none;
+}
+.intro {
+  color: antiquewhite;
+  font-size: 1.5em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  padding-bottom: 2em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 70vw;
+}
+.intro > p {
+  padding-bottom: 1em;
+  padding-top: 2em;
+}
+#dir {
+  font-size: large;
+  font-weight: bold;
+  color:antiquewhite;
+  font-style: normal;
+  padding-top: 7em;
+  padding-bottom: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#start {
+  text-align: center;
+}
+#start h2 {
+  font-size: 2.5em;
+  color: antiquewhite;
+  padding-top: 2em;
+}
+#start h4 {
+  font-size: 1.8em;
+  margin: 0.6em 0 1em 0;
+  padding-top: 3em;
+}
+.footer {
+  width: 100%;
+  height: 4em;
+  margin-bottom: 0;
+  border: .5px dashed antiquewhite;
+  text-align: center;
+  font-size: 1em;
+  padding-bottom: 3em;
+  padding-top: 1.5em;
+  background-color:cadetblue;
+  color: antiquewhite;
+} 

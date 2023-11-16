@@ -1,0 +1,13 @@
+{
+    "type": "Movie",
+    "title": "Sonic the Hedgehog",
+    "description": "2020 adventure",
+    "details": {
+        "title": "Sonic the Hedgehog",
+        "production": "Paramount Pictures",
+        "genres": [ "Adventure", "Action" ],
+        "release": 2020,
+        "director": "Jeff Fowler",
+        "casts": [ "Ben Schwartz", "Jim Carrey" ]
+    }
+}

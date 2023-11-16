@@ -1,0 +1,16 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 100px 50px 100px;
+}
+.grid-item {
+    background-color: darkcyan;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid darkmagenta;
+}

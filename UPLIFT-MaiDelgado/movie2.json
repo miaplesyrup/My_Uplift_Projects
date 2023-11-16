@@ -1,0 +1,13 @@
+{
+    "type": "Movie",
+    "title": "Top Gun: Maverick",
+    "description": "2022 action drama",
+    "details": {
+        "title": "Top Gun: Maverick",
+        "production": "Paramount Pictures",
+        "genres": [ "Animation", "Fantasy" ],
+        "release": 2022,
+        "director": "Joseph Kosinski",
+        "casts": [ "Tom Cruise", "Miles Teller" ]
+    }
+}

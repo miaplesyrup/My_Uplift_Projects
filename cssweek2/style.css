@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: blueviolet;
+    background-color: aqua;
+    text-align: center;
+    margin-bottom: 10px;
+    }
+div {
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    margin: 20px;
+    padding: 20px;
+}
+#box{
+    color: coral;
+    background-color: cadetblue;
+    text-align: center;
+}
+#header {
+    text-align: left;
+}
+.card {
+    font-family: Arial, helvetica, sans-serif;
+    color: aliceblue;
+    font-style: italic;
+    background-color:blue;
+}
+/* multiple selectors */
+h1, i, #header, .card {
+    text-decoration: line-through;
+}

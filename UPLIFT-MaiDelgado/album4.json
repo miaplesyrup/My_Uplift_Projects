@@ -1,0 +1,12 @@
+{
+    "type": "Album",
+    "title": "Jagged Little Pill",
+    "description": "by Alanis Morissette",
+    "details": {
+        "title": "Jagged Little Pill",
+        "artist": "Alanis Morissette",
+        "year": "1995",
+        "genres": [ "Alternative rock", "post-grunge", "electronica", "hard rock", "indie pop", "pop rock", "dance-pop" ],
+        "awards": " Grammy Award for Album of the Year, 1996"
+    }
+}

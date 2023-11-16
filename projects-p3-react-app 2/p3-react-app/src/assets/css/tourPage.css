@@ -1,0 +1,57 @@
+.tourPage-wrapper {
+	margin: 0 auto;
+}
+
+.tourPage-grid {
+	align-items: start;
+	display: inline-grid;
+	grid-template-columns: 1fr minmax(300px, 400px);
+	grid-gap: 15px;
+}
+
+.tourPage-image {
+	width: 100%;
+}
+
+.list-parent,
+.list-parent:last-child,
+.list-parent>.list-item>p {
+	margin: 0;
+}
+
+.list-parent {
+	margin-bottom: 10px;
+}
+
+.tourPage-wrapper .flex-item {
+	padding: 10px;
+}
+
+.tourPage-wrapper .panel--footer {
+	border-top: 1px solid #ccc;
+}
+
+.panel--footer .flex-item,
+.timeline--title.flex-item {
+	padding: 0;
+}
+
+.joiner-list {
+	text-align: right;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.joiner-list li {
+	display: inline;
+	margin-left: 5px;
+}
+
+.joiner-list li img {
+	width: 30px;
+}
+
+.timelineList--item .panel--header {
+	border: 0 none;
+}

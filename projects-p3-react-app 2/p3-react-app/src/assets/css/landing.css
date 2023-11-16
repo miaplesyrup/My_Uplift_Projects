@@ -1,0 +1,4 @@
+.landing-grid {
+	display: grid;
+	grid-template-columns: 1fr minmax(200px, 250px);
+}
